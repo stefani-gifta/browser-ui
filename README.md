@@ -4,5 +4,5 @@ Live preview: [https://stefani-gifta.github.io/browser-ui/](https://stefani-gift
 
 ## Acknowledgments
 
-*   Uses resources from [cdnjs.com](https://cdnjs.com/) for jQuery, Font Awesome, and Bootstrap Icons.
+*   Uses resources from [cdnjs.com](https://cdnjs.com/) for Font Awesome and Bootstrap Icons.
 *   Grain texture SVG from [grainy-gradients.vercel.app](https://grainy-gradients.vercel.app/)
