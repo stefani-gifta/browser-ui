@@ -26,3 +26,13 @@ $('.division-link').on('click', function() {
   let divisionName = $(this).text().trim();
   location.href = `/divisions.html?division=${divisionName}`;
 });
+
+// page titles (tabs)
+$('.page-title').each(function(index, element) {
+  if (index < $('.page-title').length-1) {
+    $(element).addClass('inactive-tab');
+  }
+});
+
+// link in search bar
+$('.search-link').text(window.location.href);

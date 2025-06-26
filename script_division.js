@@ -10,6 +10,7 @@ if(divisionName) {
   divisionIndexNow = division.indexOf(divisionName);
   goToDivision(divisionName);
   window.history.replaceState({}, document.title, window.location.pathname);
+  $('.search-link').text(window.location.href);
 }
 
 function goToDivision(divisionName) {

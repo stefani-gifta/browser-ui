@@ -54,6 +54,7 @@ section {
 }
 
 .page-title {
+  cursor: pointer;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -67,11 +68,16 @@ section {
     50% 0,
     80% 0,
     100% 100%
-  )
+  );
 }
 
 #icon {
   width: 20px;
+}
+
+.inactive-tab {
+  clip-path: none;
+  opacity: 0.5;
 }
 
 .page-container {
