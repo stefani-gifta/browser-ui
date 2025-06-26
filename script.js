@@ -42,7 +42,7 @@ for(let i = 0; i < division.length; i++) {
 $('.division-link').first().remove();
 $('.division-link').on('click', function() {
   let divisionName = $(this).text().trim();
-  location.href = `/divisions.html?division=${divisionName}`;
+  location.href = `divisions.html?division=${divisionName}`;
 });
 
 // page titles (tabs)
