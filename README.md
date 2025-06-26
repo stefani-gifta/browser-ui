@@ -1,4 +1,4 @@
-This is an attempt to replicate a website I designed with Carrd.
+This site was [original](https://github.com/stefani-gifta/browser-ui/tree/main/original%20Carrd%20screenshots)ly built on [Carrd](https://carrd.co/). However, Carrd couldn't support the full vision I had in mind, and the idea lingered. I tried to let it go, but it didn't let *me* go—so here we are.
 
 Live preview: [https://stefani-gifta.github.io/browser-ui/](https://stefani-gifta.github.io/browser-ui/)
 
