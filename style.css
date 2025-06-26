@@ -13,7 +13,7 @@ body {
   padding: 2em;
 }
 
-svg {
+#noise {
   width: 100vw;
   height: 100vh;
   position: absolute;
@@ -33,7 +33,13 @@ p, span {
 section {
   display: block;
   height: auto;
-  width: 75vw;
+  width: 50vw;
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    width: 75vw;
+  }
 }
 
 .browser-container {
@@ -62,8 +68,12 @@ section {
   width: 20px;
 }
 
-.search-bar-container {
+.page-container {
   background-color: white;
+  border-radius: 0 0 1em 1em;
+}
+
+.search-bar-container {
   padding: 0.5em;
 }
 
@@ -77,11 +87,18 @@ section {
   padding: 0.25em 0.5em;
 }
 
+.search-link {
+  color: black;
+  font-size: 70%;
+}
+
+.fa-star {
+  color: gray;
+}
+
 .content {
   padding: 2em;
   text-align: center;
-  background-color: white;
-  border-radius: 0 0 1em 1em;
 }
 
 .content h1 {
@@ -89,6 +106,22 @@ section {
   margin-bottom: 0.5em;
 }
 
-.content p {
-  margin-bottom: 0.5em;
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 2.25em;
+  padding: 0.5em 0 3em 0;
+}
+
+nav span {
+  color: #075085;
+}
+
+nav span:hover {
+  transition: 0.3s;
+  color: black;
 }
