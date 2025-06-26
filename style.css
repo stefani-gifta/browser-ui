@@ -117,11 +117,23 @@ nav {
   padding: 0.5em 0 3em 0;
 }
 
+.fa-question {
+  scale: 110%;
+  transform: translateY(1px);
+  /* match house icon */
+}
+
 nav span {
-  color: #075085;
+  color: gray;
+  transition: 0.3s;
 }
 
 nav span:hover {
+  color:#023357;
   transition: 0.3s;
-  color: black;
+  scale: 160%;
+}
+
+.active {
+  color:#023357;
 }
