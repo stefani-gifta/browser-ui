@@ -63,8 +63,7 @@ section {
   width: fit-content;
   background-color: white;
   clip-path: polygon(
-    0% 100%,
-    0% 0,
+    0% 0%,
     50% 0,
     80% 0,
     100% 100%
